@@ -1,0 +1,41 @@
+1. Инициилизация проэкта: npm init
+2. Установка зависимостей: 
+npm install express pg pg-hstore sequelize
+npm install -D nodemon concurrently
+3. Прописываем скрипты:
+"scripts": {
+    "start": "node app.js",
+    "server": "nodemon app.js"
+
+4. Запуск: npm run server
+5. npm i config
+6. Создаем базу данных:
+
+проверка установлен ли psql: 
+
+$ psql --version
+
+Заходим в postgres:
+
+sudo -u postgres psql
+
+Создание новой базы данных:
+
+postgres=# create database pern;
+
+Коннектимся к этой базе данных: 
+
+postgres=# \c pern
+
+Что есть в базе данных?:
+
+weather=# \d
+
+7. npm i bcrypt
+8. npm i express-validator
+9. npm i jsonwebtoken
+
+10. npx create-react-app client
+
+
+11. npm install materialize-css@next
