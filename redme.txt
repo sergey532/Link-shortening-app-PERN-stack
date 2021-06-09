@@ -1,3 +1,6 @@
+по материалам https://youtu.be/ivDjWYcKDZI
+только переделано с MongoDB под sequelize и postgres
+
 1. Инициилизация проэкта: npm init
 2. Установка зависимостей: 
 npm install express pg pg-hstore sequelize
