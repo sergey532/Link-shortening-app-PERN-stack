@@ -1,0 +1,5 @@
+{
+	"port": 5000,
+	"jwtSecret": ";sjk;aghklstjh",
+	"baseUrl": "http://localhost:5000"
+}

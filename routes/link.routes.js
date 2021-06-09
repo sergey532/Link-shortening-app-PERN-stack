@@ -14,7 +14,7 @@ router.post('/generate', auth, async (req, res) => {
     
     const code = shortid.generate()
 
-    const existing = await Link.findOne({where: {from: from}})
+    const existing = await Link.findOne({where: {from: from, userId: req.user.userId}})
 
     if (existing) {
       return res.json({ link: existing })

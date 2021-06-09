@@ -39,3 +39,7 @@ weather=# \d
 
 
 11. npm install materialize-css@next
+
+12. npm install --save-dev cross-env
+
+13. npm run client:build
